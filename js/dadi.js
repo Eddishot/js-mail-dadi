@@ -1,9 +1,9 @@
 // creo due let. uno mio e uno per il computer
 
-let numeriUtente = (Math.random() * 6);
+let numeriUtente = Math.ceil(Math.random() * 6);
 console.log (numeriUtente)
 
-let numeriComputer =(Math.random() * 6);
+let numeriComputer = Math.ceil(Math.random() * 6);
 console.log (numeriComputer)
 
 
